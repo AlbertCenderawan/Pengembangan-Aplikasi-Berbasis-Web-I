@@ -1,0 +1,32 @@
+.Body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.Table_01, td, tr {
+    border: 1px solid #ff0000;
+}
+
+.Table_02, td, tr {
+    border: 1px solid #000000;
+}
+
+#Table_02_R2C1 {
+    background-color:#228cef;
+}
+
+#Table_02_R3C1 {
+    background-color: #ff8c00;
+}
+
+#Table_02_R3C2 {
+    background-color: #ff5252;
+}
+
+#Table_02_R4C1 {
+    background-color: #ffffff;
+}
+
+#Table_02_R4C2 {
+    background-color:#009c00;
+}
