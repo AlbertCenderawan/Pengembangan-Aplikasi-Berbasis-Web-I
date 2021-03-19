@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title> Belajar OL, UL, Tabel </title>
+        <style>
+            .Body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: aliceblue;
+            }
+
+            .Table_01, td, tr {
+                border: 1px solid #ff0000;
+            }
+
+            .Table_02, td, tr {
+                border: 1px solid #000000;
+            }
+
+            #Table_02_R2C1 {
+                background-color:#228cef;
+            }
+
+            #Table_02_R3C1 {
+                background-color: #ff8c00;
+            }
+
+            #Table_02_R3C2 {
+                background-color: #ff5252;
+            }
+
+            #Table_02_R4C1 {
+                background-color: #ffffff;
+            }
+
+            #Table_02_R4C2 {
+                background-color:#009c00;
+            }
+        </style>
+    </head>
+    <body class = "Body">
+        <ol type="A"><b> Makanan favorit saya: </b> <!-- Diurutkan dari A sampai Z -->
+            <li> Ayam goreng </li>
+            <li> Pizza </li>
+            <li> Burger </li>
+            <li> Kerupuk Kentang </li>
+        </ol>
+
+        <ol type="a"><b> Minuman favorit saya: </b> <!-- Diurutkan dari A sampai Z -->
+            <li> Lemon Tea </li>
+            <li> Starbucks Caramel Coffee </li>
+            <li> Boba tea </li>
+            <li> Air putih </li>
+        </ol>
+
+        <ul> <b> Warna Kesukaan </b>
+            <li><font color = "#ff0000"> Merah </font></li>
+            <li><font color = "#0000ff"> Biru </font> </li>
+        </ul>
+
+        <ul> &#8594List Item 1:
+            <ul>
+                <li>&#9734Sub Item 1</li>
+                <li>&#9734Sub Item 2</li>
+                <li>&#9734Sub Item 3</li>
+            </ul>
+        </ul>
+
+        <ul> &#8594List Item 2:
+            <ul>
+                <li style="list-style-type: square;">&#9734Sub Item 1</li>
+                <li style="list-style-type: square;">&#9734Sub Item 2</li>
+                <li style="list-style-type: square;">&#9734Sub Item 3</li>
+            </ul>
+        </ul>
+
+        <ol start = "5" reversed> Hansel & Albert request...
+           <li> </li> 
+           <li> </li> 
+           <li> </li> 
+        </ol>
+
+        <ol start=5 reversed> Albert Cenderawan
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+        <table class="Table_01">
+            <tr> <!-- Menandai satu baris -->
+                <td> <!-- Menandai satu kolom -->
+                    Baris 1 kolom 1
+                </td>
+                <td>
+                    Baris 1 kolom 2
+                </td>
+                <td>
+                    Baris 1 kolom 3
+                </td>
+                <td>
+                    Baris 1 kolom 4
+                </td>
+                <td>
+                    Baris 1 kolom 5
+                </td>
+            </tr>
+
+            <tr>
+                <td>Baris 2 kolom 1</td>
+                <td>Baris 2 kolom 2</td>
+                <td>Baris 2 kolom 3</td>
+                <td>Baris 2 kolom 4</td>
+                <td>Baris 2 kolom 5</td>
+            </tr>
+
+            <tr>
+                <td>Baris 3 kolom 1</td>
+                <td>Baris 3 kolom 2</td>
+                <td>Baris 3 kolom 3</td>
+                <td>Baris 3 kolom 4</td>
+                <td>Baris 3 kolom 5</td>
+            </tr>
+        </table>
+        <br>
+        <table class="Table_02">
+            <tr>
+                <td><b>Judul Kolom 1</b></td>
+                <td><b>Judul Kolom 2</b></td>
+                <td><b>Judul Kolom 3</b></td>
+            </tr>
+            <tr>
+                <td id = "Table_02_R2C1">Baris 1 Kolom 1</td>
+                <td id = "Table_02_R2C2" colspan=2>Gabungan Kolom 2 dan 3 di Baris 1</td>
+            </tr>
+            <tr>
+                <td id = "Table_02_R3C1" colspan=2>Gabungan Kolom 1 dan 2 di Baris 2</td>
+                <td id = "Table_02_R3C2" colspan=2 rowspan=2>Gabungan Baris 2 dan 3 di Kolom 3</td>
+            </tr>
+            <tr>
+                <td id = "Table_02_R4C1">Baris 3 Kolom 1</td>
+                <td id = "Table_02_R4C2">Baris 3 Kolom 2</td>
+            </tr>
+        </table>
+    </body>
+</html>
