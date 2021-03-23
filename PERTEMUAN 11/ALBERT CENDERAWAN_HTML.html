@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Learn Function and Class Object by "ALBERT CENDERAWAN"
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="03082190015_JAVASCRIPT.js"></script>
+    </head>
+    <body>
+        <h1>Javascript show Biodata</h1>
+        <p>Pada website ini, html memanggil file javascript </p>
+    </body>
+    <script>
+        let albertCenderawan = new Mahasiswa("03082190015", "Albert Cenderawan", "Teknik Informatika");
+            albertCenderawan.showInformasiMahasiswa();
+
+        let salahSatuDosen = new Dosen("123456", "Alvin", "Dosen Tetap", "081234567899", "Jl. Raya No.1 Medan");
+            let hadirSemua = true;
+            salahSatuDosen.memberiAbsensi(hadirSemua); document.writeln();
+            salahSatuDosen.tampilkanInfoDosen(); document.writeln();
+    </script>
+</html>
